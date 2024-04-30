@@ -9,3 +9,8 @@
       dest: ~/Dotfiles
       update: yes
       version: main
+  - name: installer zsh
+    ansible.builtin.package:
+      name: zsh
+      state: present
+
