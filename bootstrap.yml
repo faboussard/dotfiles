@@ -8,4 +8,4 @@
       repo: https://github.com/faboussard/dotfiles.git
       dest: ~/Dotfiles
       update: yes
-      version: master
+      version: main
