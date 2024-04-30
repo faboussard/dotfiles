@@ -11,6 +11,7 @@
       version: main
   - name: installer zsh
     ansible.builtin.package:
+      become: yes
       name: zsh
       state: present
 
