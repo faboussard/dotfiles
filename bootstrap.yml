@@ -1,0 +1,14 @@
+- name: Bootstrap development environment
+  hosts: localhost
+
+  tasks:
+  - name: pull from git
+    become: yes
+    ansible.builtin.git:
+      name:
+        - git
+      repo: git@github.com:faboussard/dotfiles.git
+      dest: /root/Development/abc
+      update: yes
+      version: master
+    
