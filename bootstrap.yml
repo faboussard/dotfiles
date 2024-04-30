@@ -5,7 +5,7 @@
   - name: pull from git
     become: yes
     git:
-      repo: git@github.com:faboussard/dotfiles.git
+      repo: https://github.com/faboussard/dotfiles.git
       dest: ~/Dotfiles
       update: yes
       version: master
